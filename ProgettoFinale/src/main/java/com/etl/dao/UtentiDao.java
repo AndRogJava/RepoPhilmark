@@ -1,5 +1,5 @@
 package com.etl.dao;
 
-public class UtentiDao {
+public interface UtentiDao {
 
 }
