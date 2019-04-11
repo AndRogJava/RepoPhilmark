@@ -12,7 +12,6 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 import com.etl.model.Admin;
-import com.etl.model.Utenti;
 import com.etl.util.HibernateUtil;
 
 public class AdminDaoImpl implements AdminDao<Admin, Serializable>{
