@@ -1,6 +1,5 @@
 package com.etl.model;
 
-<<<<<<< HEAD
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -82,10 +81,4 @@ public class Admin {
 		this.email = email;
 	}
 	
-	
-	
-=======
-public class Admin {
-
->>>>>>> branch 'master' of https://github.com/AndRogJava/RepoPhilmark.git
 }

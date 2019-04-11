@@ -1,6 +1,5 @@
 package com.etl.model;
 
-<<<<<<< HEAD
 import javax.persistence.*;
 
 @Entity
@@ -134,8 +133,7 @@ public class Utenti {
 
 }
 
-=======
-public class Utenti {
 
-}
->>>>>>> branch 'master' of https://github.com/AndRogJava/RepoPhilmark.git
+
+
+

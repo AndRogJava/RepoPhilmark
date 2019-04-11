@@ -1,8 +1,5 @@
 package com.etl.dao;
 
-<<<<<<< HEAD
-public class UtentiDaoImpl {
-=======
 import java.io.Serializable;
 import java.util.List;
 
@@ -131,6 +128,5 @@ public class UtentiDaoImpl implements UtentiDao<Utenti, Serializable> {
 	}
 
 
->>>>>>> branch 'master' of https://github.com/AndRogJava/RepoPhilmark.git
 
 }

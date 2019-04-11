@@ -1,9 +1,5 @@
 package com.etl.dao;
 
-<<<<<<< HEAD
-public class UtentiDao {
-
-=======
 import java.io.Serializable;
 import java.util.List;
 
@@ -14,5 +10,4 @@ public interface UtentiDao <Utenti, Id extends Serializable>{
 	public Utenti findByEmail(String email);
 	public void delete(Utenti utente);
 	public List<Utenti> findAll();
->>>>>>> branch 'master' of https://github.com/AndRogJava/RepoPhilmark.git
 }

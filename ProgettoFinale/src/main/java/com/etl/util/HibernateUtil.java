@@ -1,9 +1,5 @@
 package com.etl.util;
 
-<<<<<<< HEAD
-public class HibernateUtil {
-
-=======
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;
@@ -38,5 +34,5 @@ public class HibernateUtil {
 	          sessionFactory.close();
 	        }
 	    }	 
->>>>>>> branch 'master' of https://github.com/AndRogJava/RepoPhilmark.git
+
 }
