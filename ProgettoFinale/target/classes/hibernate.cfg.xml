@@ -14,6 +14,10 @@
      <property name="show_sql">true</property>
     <property name="hibernate.current_session_context_class">thread</property>
    
+<<<<<<< HEAD
+    <mapping class="com.mypro.module.user.model.Utente" />
+=======
     <mapping class="com.etl.model.Utenti" />
+>>>>>>> branch 'master' of https://github.com/AndRogJava/RepoPhilmark.git
 </session-factory>
 </hibernate-configuration>
