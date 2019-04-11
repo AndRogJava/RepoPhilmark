@@ -15,7 +15,6 @@
     <property name="hibernate.current_session_context_class">thread</property>
 
     <mapping class="com.mypro.module.user.model.Utente" />
-
     <mapping class="com.etl.model.Utenti" />
 
 </session-factory>
