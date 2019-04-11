@@ -9,5 +9,6 @@ public interface UtentiDao <Utenti, Id extends Serializable>{
 	public void update(Utenti utente);
 	public Utenti findByEmail(String email);
 	public void delete(Utenti utente);
+	
 	public List<Utenti> findAll();
 }

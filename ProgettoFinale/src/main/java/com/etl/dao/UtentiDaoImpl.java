@@ -20,6 +20,7 @@ public class UtentiDaoImpl implements UtentiDao<Utenti, Serializable> {
 	private Session currentSession;
 	private Transaction currentTransaction;
 	private static StandardServiceRegistry registry;
+	
 	private static SessionFactory sessionFactory ;
 	
 	public UtentiDaoImpl() {

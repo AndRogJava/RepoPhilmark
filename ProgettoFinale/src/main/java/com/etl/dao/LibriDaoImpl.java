@@ -19,6 +19,7 @@ public class LibriDaoImpl implements LibriDao<Libri, Serializable>{
 	private Session currentSession;
 	private Transaction currentTransaction;
 	private static StandardServiceRegistry registry;
+	
 	private static SessionFactory sessionFactory ;
 	
 	public LibriDaoImpl() {

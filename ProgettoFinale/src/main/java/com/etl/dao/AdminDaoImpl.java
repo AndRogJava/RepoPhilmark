@@ -23,6 +23,7 @@ public class AdminDaoImpl implements AdminDao<Admin, Serializable>{
 	
 	public AdminDaoImpl() {
 		
+		
 	}
 	
 	public Session openCurrentSession() {
