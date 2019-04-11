@@ -1,0 +1,18 @@
+.form-row{
+	margin-right: 60px;
+    margin-left: 60px;
+    padding-top: 30px;
+}
+
+h2{
+	padding-top:3%;
+	margin-left:4%;
+	font-size:30px;
+}
+
+@media (min-width: 768px)
+.col-md-6 {
+    -ms-flex: 0 0 44%;
+    flex: 0 0 44%;
+    max-width: 44%;
+}
