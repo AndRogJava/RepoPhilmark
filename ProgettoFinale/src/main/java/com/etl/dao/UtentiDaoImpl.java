@@ -1,5 +1,6 @@
 package com.etl.dao;
 
+import java.io.Serializable;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -14,7 +15,7 @@ import com.etl.model.Utenti;
 import com.etl.util.HibernateUtil;
 
 
-public class UtentiDaoImpl implements UtentiDao {
+public class UtentiDaoImpl implements UtentiDao<Utenti, Serializable> {
 	
 	private Session currentSession;
 	private Transaction currentTransaction;
@@ -125,5 +126,7 @@ public class UtentiDaoImpl implements UtentiDao {
 		return utenti;
 
 	}
+
+
 
 }
