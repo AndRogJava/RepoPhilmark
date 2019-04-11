@@ -12,7 +12,7 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 import com.etl.model.Libri;
-import com.etl.util.HibernateUtil;
+import com.etl.util.*;
 
 public class LibriDaoImpl implements LibriDao<Libri, Serializable>{
 	
