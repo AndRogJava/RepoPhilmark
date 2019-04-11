@@ -1,8 +1,5 @@
 package com.etl.dao;
 
-<<<<<<< HEAD
-public class UtentiDaoImpl {
-=======
 import java.io.Serializable;
 import java.util.List;
 
@@ -14,18 +11,17 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
-import com.etl.model.Utenti;
+import com.etl.model.Libri;
 import com.etl.util.HibernateUtil;
 
-
-public class UtentiDaoImpl implements UtentiDao<Utenti, Serializable> {
+public class LibriDaoImpl implements LibriDao<Libri, Serializable>{
 	
 	private Session currentSession;
 	private Transaction currentTransaction;
 	private static StandardServiceRegistry registry;
 	private static SessionFactory sessionFactory ;
 	
-	public UtentiDaoImpl() {
+	public LibriDaoImpl() {
 		
 	}
 	
@@ -101,36 +97,28 @@ public class UtentiDaoImpl implements UtentiDao<Utenti, Serializable> {
 		this.currentSession = currentSession;
 
 	}
-
-	public void persist(Utenti entity) {
+	
+	public void persist(Libri entity) {
 		openCurrentSessionwithTransaction();
 		getCurrentSession().save(entity);
 
 	}
 	
-	public void update(Utenti entity) {
+	public void update(Libri entity) {
 		getCurrentSession().update(entity);
-	}	
-
-	public Utenti findByEmail(String email) {
-		Utenti utente = (Utenti) getCurrentSession().get(Utenti.class, email);
-
-		return utente;
+		
 	}
 
-	public void delete(Utenti entity) {
+	public void delete(Libri entity) {
 
 		getCurrentSession().delete(entity);
+		
 	}
 
-	public List<Utenti> findAll() {
-		List<Utenti> utenti = (List<Utenti>) getCurrentSession().createQuery("from utenti").list();
+	public List<Libri> findAll() {
+		List<Libri> libri = (List<Libri>) getCurrentSession().createQuery("from libri").list();
 
-		return utenti;
-
+		return libri;
 	}
-
-
->>>>>>> branch 'master' of https://github.com/AndRogJava/RepoPhilmark.git
-
+	
 }
